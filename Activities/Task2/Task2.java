@@ -1,7 +1,6 @@
 package Activities.Task2;
 
 public class Task2 {
-
     public static void main(String[] args) {
     char clh = 'H';
     char slw = 'w';
