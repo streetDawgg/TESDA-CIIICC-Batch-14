@@ -1,4 +1,4 @@
-package Activities.Task1;
+package Activities.Tasks;
     /** 
  * The HelloWorldApp class implements an application that
  * simply prints "Hello World!" to standard output.
