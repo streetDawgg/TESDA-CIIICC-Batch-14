@@ -1,11 +1,17 @@
 package Activities.Tasks;
+import java.util.Scanner;
 
 public class Task4{
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // with manual input
+        System.out.println("Enter a word: ");
+        String input = scanner.nextLine();
+        
         String input1 = "kayak"; // is palindrome
         String input2 = "hello"; // not palindrome
         String input3 = "racecar"; // is palindrome
 
+        checkPalindrome(input);
         checkPalindrome(input1);
         checkPalindrome(input2);
         checkPalindrome(input3);
