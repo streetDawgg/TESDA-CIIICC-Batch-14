@@ -1,3 +1,5 @@
+package Activities.Tasks;
+
 public class Task4{
     public static void main(String[] args) {
         String input1 = "kayak"; // is palindrome
