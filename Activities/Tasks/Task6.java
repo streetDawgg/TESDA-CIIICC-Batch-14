@@ -31,9 +31,10 @@ public class Task6 {
                 if(lastNum2 == 237)
                     break;
                 i++;
-                System.out.println((lastNum2 % 2 == 0) ? lastNum2 + " Is an Even Numbers (ternary)":"");
                 if(lastNum2 % 2 == 0) {
                     System.out.println(lastNum2 + " Is an Even Numbers (while loop)");
+
+                    System.out.println((lastNum2 % 2 == 0) ? lastNum2 + " Is an Even Numbers (ternary)":"");
                 }
             }
     }

@@ -48,11 +48,11 @@ public class Task7 {
     }
 
     public static double divideNumbers(double num1, double num2){
-        double division = num1 / num2;
         if (num2 ==0){
             System.out.println("Can not Divide 'Zero' / '0'!");
             return 0;
         }
+        double division = num1 / num2;
         return division;
     }
 }
@@ -99,11 +99,11 @@ class Division {
     public Division(double num1, double num2) {
         this.num1 = num1;
         this.num2 = num2;
+
         if(num2 == 0){
             System.out.println("Can not Divide 'Zero' / '0'!");
-            return;
+        return;
         }
-
         this.result = num1 / num2;
     }
 }
