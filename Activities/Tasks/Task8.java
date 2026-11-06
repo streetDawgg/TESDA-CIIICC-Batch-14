@@ -17,7 +17,7 @@ public class Task8 {
         Arrays.stream(numbers).forEach(num -> {
             int sum = IntStream.rangeClosed(1, num).sum();
 
-            System.out.println(num + " = " + sum);
+            System.out.println(num + " =  " + sum);
         });
 
         System.out.println("\nSum of all parameters: " + parameters);
