@@ -1,6 +1,5 @@
 package Activities.Tasks;
 
-import org.w3c.dom.ls.LSOutput;
 
 public class Task10 {
     public static void main(String[] args) {
